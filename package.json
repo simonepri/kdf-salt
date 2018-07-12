@@ -1,6 +1,6 @@
 {
   "name": "@kdf/salt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crypto secure salt generator",
   "license": "MIT",
   "homepage": "https://github.com/simonepri/kdf-salt#readme",
