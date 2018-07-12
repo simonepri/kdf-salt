@@ -1,0 +1,60 @@
+{
+  "name": "@kdf/salt",
+  "version": "0.0.0",
+  "description": "Crypto secure salt generator",
+  "license": "MIT",
+  "homepage": "https://github.com/simonepri/kdf-salt#readme",
+  "repository": "github:simonepri/kdf-salt",
+  "bugs": {
+    "url": "https://github.com/simonepri/kdf-salt/issues",
+    "email": "simonepri@outlook.com"
+  },
+  "author": "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)",
+  "contributors": [
+    "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)"
+  ],
+  "keywords": [
+    "kdf",
+    "salt",
+    "crypt",
+    "passwords",
+    "hashing",
+    "password",
+    "crypto"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo &&nyc ava",
+    "release": "np",
+    "update": "npm-check -u"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "np": "*",
+    "npm-check": "*",
+    "nyc": "*",
+    "xo": "*"
+  },
+  "ava": {
+    "verbose": true
+  },
+  "nyc": {
+    "reporter": [
+      "lcovonly",
+      "text"
+    ]
+  },
+  "xo": {
+    "prettier": true,
+    "space": true
+  }
+}
