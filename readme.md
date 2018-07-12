@@ -93,8 +93,8 @@ gensalt(16).then(salt => {
 <a name="gensalt"></a>
 
 ### gensalt(length) ⇒ <code>Promise.&lt;Buffer&gt;</code>
-Generates a cryptographically secure random string for use as a password salt
-using Node's built-in crypto.randomBytes().
+Generates a cryptographically secure random string to be used as a password salt
+, using Node's built-in crypto.randomBytes() function.
 
 **Kind**: global function  
 **Returns**: <code>Promise.&lt;Buffer&gt;</code> - The salt as a Buffer.  
